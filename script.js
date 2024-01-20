@@ -1,4 +1,4 @@
-// ######## Add-freind Function
+// ######## Add-freind Function ##################
 // const Add_Friend = function(){
 //     let h1 = document.querySelector("h1")
 //     let add = document.querySelector("button")
@@ -31,12 +31,12 @@
 // Add_Friend()
 
 
-// ############ insta like Function
+// ############ insta like Function ################
+// const insta_Like = function(){
+//     let  cont = document.querySelector(".cont")
+//     let heart  = document.querySelector("i")
 
-// let  cont = document.querySelector(".cont")
-// let heart  = document.querySelector("i")
-
-// cont.addEventListener("dblclick", function(){
+//     cont.addEventListener("dblclick", function(){
 //     setTimeout(function(){
 //         heart.style.opacity = 0.8
 //     },0.1000)
@@ -46,14 +46,40 @@
 //     },1000)
     
 // })
+// }
+// insta_Like()
 
-//  ################ Cursor move Function
 
-// let main = document.querySelector(".main");
-// let crs = document.querySelector(".cursor");
 
-// main.addEventListener("mousemove", function(dets){
+//  ################ Cursor Function ################
+// const cursor = function(){
+//     let main = document.querySelector(".main");
+//     let crs = document.querySelector(".cursor");
+
+//     main.addEventListener("mousemove", function(dets){
 //     crs.style.left = dets.x+"px"
 //     crs.style.top = dets.y+"px" 
     
 // })
+// }
+// cursor()
+
+//  ############### mouse move Function ###############
+
+// const mouse_move = function(){
+    
+// let main = document.querySelectorAll(".elem")
+
+//     main.forEach(function(val){
+//     val.addEventListener("mouseenter", function(){
+//         val.childNodes[3].style.opacity = 1 
+//     })
+//     val.addEventListener("mouseleave", function(){
+//         val.childNodes[3].style.opacity = 0 
+//     })
+//     val.addEventListener("mousemove",function(dets){
+//         val.childNodes[3].style.left = dets.x + "px";  
+//     })
+// })
+// }
+// mouse_move()
